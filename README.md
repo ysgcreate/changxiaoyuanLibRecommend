@@ -40,6 +40,7 @@ g++ clientTest.cpp -o client
 
 ###### main
 `
+
 [root@localhost changxiaoyuanLibRecommend]# g++ main.cpp cJSON.c -lpthread -o main -std=c++11
 
 
@@ -67,6 +68,7 @@ create the 7th thread
 
 ###### client
 `
+
 [root@localhost changxiaoyuanLibRecommend]# g++ clientTest.cpp -o client
 
 
@@ -78,4 +80,5 @@ create the 7th thread
 	"items":	["1196", "2858", "480", "2355", "2081", "2571", "364", "2078", "2096", "2396"],
 	"code":	1
 }
+
 `
