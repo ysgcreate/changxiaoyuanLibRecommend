@@ -40,19 +40,11 @@ g++ clientTest.cpp -o client
 
 ###### main
 ```c
-
 [root@localhost changxiaoyuanLibRecommend]# g++ main.cpp cJSON.c -lpthread -o main -std=c++11
-
-
 main.cpp: 在函数‘int main(int, char**)’中:
-
-
 main.cpp:58:13: 警告：不建议使用从字符串常量到‘char*’的转换 [-Wwrite-strings]
-
   char* file="./ml-1m/rat.dat";
-  
 [root@localhost changxiaoyuanLibRecommend]# ./main
-
 create the 0th thread
 create the 1th thread
 create the 2th thread
@@ -61,24 +53,16 @@ create the 4th thread
 create the 5th thread
 create the 6th thread
 create the 7th thread
-
 召回率:0.10 准确率:0.20 覆盖率:0.17 新颖度:5.00
-
 ```
 
 ###### client
 ```c
-
 [root@localhost changxiaoyuanLibRecommend]# g++ clientTest.cpp -o client
-
-
 [root@localhost changxiaoyuanLibRecommend]# ./client 127.0.0.1 13000
-
 1
-
 {
 	"items":	["1196", "2858", "480", "2355", "2081", "2571", "364", "2078", "2096", "2396"],
 	"code":	1
 }
-
 ```
