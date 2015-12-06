@@ -39,7 +39,7 @@ g++ clientTest.cpp -o client
 以下为终端结果:
 
 ###### main
-`
+```c
 
 [root@localhost changxiaoyuanLibRecommend]# g++ main.cpp cJSON.c -lpthread -o main -std=c++11
 
@@ -64,10 +64,10 @@ create the 7th thread
 
 召回率:0.10 准确率:0.20 覆盖率:0.17 新颖度:5.00
 
-`
+```
 
 ###### client
-`
+```c
 
 [root@localhost changxiaoyuanLibRecommend]# g++ clientTest.cpp -o client
 
@@ -81,4 +81,4 @@ create the 7th thread
 	"code":	1
 }
 
-`
+```
